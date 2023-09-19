@@ -1,4 +1,8 @@
+<div align='center'>
+
 # 📅 HTML, CSS & JavaScript: Calendar i18n
+
+</div>
 
 Este es un pequeño calendario hecho de manera vanilla con HTML, CSS y JavaScript.
 
@@ -6,6 +10,6 @@ Este es un pequeño calendario hecho de manera vanilla con HTML, CSS y JavaScrip
 
 Este calendario utiliza:
 
-- La API de i18n con sus funcionalidades
-- Renderizado condicional, para mostrar los días
-- Event listeners para el evento Click
+- La **API de i18n** con sus funcionalidades
+- Renderizado **condicional**, para mostrar los días
+- **Event listeners** para el evento Click
