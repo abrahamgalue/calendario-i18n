@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+}
+
+section {
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 100vh;
+}
+
+div {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.month {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: center;
+  display: grid;
+  grid-template-rows: 80px;
+}
+
+ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  grid-template-rows: 90px;
+}
+
+li {
+  font-size: 1.5ch;
+}
+
+h1,
+ol>[class="day-name"] {
+  text-transform: capitalize;
+}
+
+h2 {
+  margin-bottom: 4px;
+  padding: 0;
+}
+
+.first-day {
+  grid-column-start: var(--first-day-start);
+}
+
+.day-name {
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 2px;
+  padding: 4px;
+  text-align: center;
+}
+
+button {
+  background: rgb(201, 32, 66);
+  border-radius: 1.75rem;
+  border: 1px;
+  bottom: 32px;
+  cursor: pointer;
+  height: 50px;
+  padding: 10px;
+  position: fixed;
+  right: 32px;
+  text-align: center;
+  transition: color 0.2 ease;
+  width: 50px;
+}
+
+button:hover {
+  background: rgb(181, 12, 46);
+}
+
+#up {
+  right: 100px;
+}
+
+#up,
+#down {
+  color: #eee;
+  font-size: 4px;
+}
