@@ -4,11 +4,19 @@
 
 </div>
 
+### Calendario con internalización
+
+> 🧩 Aquí puedes ver su [**Live Demo.**](https://calendar-i18n-abraham.netlify.app/)
+
+![vista-previa](./public/preview/01-page-preview.png)
+
+## 🚀 Descripción
+
 Este es un pequeño calendario hecho de manera vanilla con HTML, CSS y JavaScript.
 
-🧩 Aquí puedes ver su [**Live Demo**](https://calendar-i18n-abraham.netlify.app/)
+## 🎭 Tecnologías
 
-Este calendario utiliza:
+El proyecto utiliza las siguientes tecnologías:
 
 - La **API de i18n** con sus funcionalidades
 - Renderizado **condicional**, para mostrar los días
